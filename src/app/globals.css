@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	/* Navbar */
+	--nav-height-sm: 100px;
+	--nav-height-lg: 120px;
+	--nav-padding-x-lg: 107px;
+	--nav-padding-x-sm: 60px;
+	--nav-padding-x: 25px;
+
+	/* General */
+	--padding-y: 40px;
+	--padding-y-sm: 100px;
+	--padding-y-lg: 120px;
+	--padding-y-2: 80px;
+	--padding-y-sm-2: 200px;
+	--padding-y-lg-2: 240px;
+
+	--padding-x: 25px;
+	--padding-x-sm: 60px;
+	--padding-x-lg: 107px;
+
+	/* Colors */
+	--white: #fff6f6;
+	--pink: #ff73b5;
+	--black: #042f1a;
+	--light-green: #d4ed6d;
+	--green: #1abe71;
+	--yellow: #ffb500;
+	--light-red: #f95b77;
+
+	/* Font */
+	--text-font: 'Rubik', sans-serif;
+	--headingFont: 'obviously', 'Helvetica', sans-serif;
+	--heading-narrow: 'obviously-narrow', 'Helvetica', sans-serif;
+	/* 'Coda', cursive; */
+
+	/* Hero Section */
+	--hero-height: calc(100vh - 80px);
+	--hero-height-sm: calc(100vh - 100px);
+	--hero-height-lg: calc(100vh - 120px);
+
+	/* Intrigued Section */
+	--content-width: calc(100vw - 2rem);
+	--content-width-md: 600px;
+	--content-width-lg: 700px;
+	--content-width-xl: 940px;
+	--content-width-3xl: 1240px;
+}
